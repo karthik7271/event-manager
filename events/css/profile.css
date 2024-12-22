@@ -1,0 +1,58 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile container with background and shadow */
+.profile-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Profile details section */
+.profile-details {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Label and value styling */
+.profile-label {
+    font-weight: 600;
+    color: #7f8c8d;
+}
+
+.profile-value {
+    font-weight: 400;
+    color: #34495e;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 15px;
+}

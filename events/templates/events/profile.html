@@ -1,0 +1,15 @@
+{% extends "events/base.html" %}
+
+{% load static %}  
+<link rel="stylesheet" href="{% static 'profile.css' %}">
+
+{% block content %}
+    
+    <div class="profile-container">
+        <h1>Profile</h1>
+        <div class="profile-details">
+            <p><span class="profile-label">Username:</span> <span class="profile-value">{{ user.username }}</span></p>
+            <p><span class="profile-label">Email:</span> <span class="profile-value">{{ user.email }}</span></p>
+        </div>
+    </div>
+{% endblock %}
